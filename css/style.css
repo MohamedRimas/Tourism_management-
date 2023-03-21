@@ -312,11 +312,40 @@ legend {
   color: inherit;
   white-space: normal;
 }
-
+#anchortag {
+  background-color: rgb(210, 146, 185);
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw) ;
   }
+}
+#sectionwidth{
+  width: 400px;
+  margin-right: 40px;
+  height: 450px;
+  background-color: rgba(245, 200, 195, 0.5);
+
+
+}
+.articledes{
+  margin-top: 800px;
+  margin-right: 2px;
+}
+#ariscleid{
+  width: 500px;
+}
+#element1{
+  display:inline-block;
+  margin-right:10px;
+}
+#element2{
+  display:inline-block;
 }
 
 progress {
