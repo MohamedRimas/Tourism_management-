@@ -56,7 +56,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                             $_SESSION["email"] = $email;                            
                             
                             // Redirect user to welcome page
-                            header("location: welcome.php");
+                            header("location: index.php");
                         }
                         else
                         {
